@@ -1,4 +1,4 @@
-package cl.talentodigital.elixirgamesapp.presentation.viewmodel
+package cl.talentodigital.elixirgamesapp.presentation.viewmodel.listvg
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

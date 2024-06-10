@@ -1,8 +1,8 @@
-package cl.talentodigital.elixirgamesapp.data.response
+package cl.talentodigital.elixirgamesapp.data.local
 
 import com.google.gson.annotations.SerializedName
 
-data class VideoGameResponse(
+data class VideoGame(
     val id: Long,
     val name: String,
     val released: String,
@@ -10,5 +10,4 @@ data class VideoGameResponse(
     val backgroundImage: String,
     val metacritic: Long,
     val rating: Double
-
 )
